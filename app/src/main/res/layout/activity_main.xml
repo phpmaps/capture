@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnIdOrPassportCapture"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/start_id_or_passport_capture"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/btnIdCapture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/btnIdCapture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/start_id_capture"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/btnPassportCapture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnIdOrPassportCapture" />
+
+    <Button
+        android:id="@+id/btnPassportCapture"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/start_passport_capture"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/btnSelfieCapture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnIdCapture" />
+
+    <Button
+        android:id="@+id/btnSelfieCapture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/start_selfie_capture"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@id/btnIdAndSelfieCapture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPassportCapture" />
+
+    <Button
+        android:id="@+id/btnIdAndSelfieCapture"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/start_id_and_selfie_capture"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSelfieCapture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

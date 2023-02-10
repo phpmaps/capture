@@ -1,0 +1,110 @@
+<resources>
+    <string name="okcoin">Incode Omni</string>
+    <string name="app_name">Incode Omni</string>
+    <string name="scan_id">ID</string>
+    <string name="scan_selfie">Selfie</string>
+
+    <!-- OnboardingActivity -->
+    <string name="accepting_terms">By continuing, you agree to Incode\'s \nTerms of Service and Privacy Policy</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Service</string>
+    <string name="environment_label">Env:</string>
+    <string name="version">Build number: %1$d</string>
+    <string name="region">Region:</string>
+    <string name="check_status">CHECK STATUS</string>
+    <string name="start_over">START OVER</string>
+
+    <!-- DoneActivity -->
+    <string name="restart_onboarding">Restart onboarding</string>
+    <string name="done_title">Thank you!</string>
+    <string name="done_text">You’ve successfully completed the onboarding process.</string>
+    <string name="review_results">Review results at:</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="welcome_back_applicant">Welcome back %1$s!</string>
+    <string name="application_not_found">Could not find your application</string>
+    <string name="go_back">GO BACK</string>
+    <string name="application_under_review">Your application is under review.</string>
+    <string name="download_report">Download report</string>
+    <string name="done_failure_title">Process was not completed</string>
+    <string name="done_text_title">We\’re unable to onboard you remotely, please proceed to the nearest branch.</string>
+
+    <!-- Blocking update -->
+    <string name="needs_updating">needs to be updated</string>
+    <string name="instructions">Instructions:</string>
+    <string name="step_one">STEP 1:</string>
+    <string name="step_two">STEP 2:</string>
+    <string name="delete_app">Delete this app</string>
+    <string name="install_new_version">Install new version from Bitrise</string>
+    <string name="install_from_bitrise">install from bitrise</string>
+
+    <!-- SettingsActivity -->
+    <string name="settings">Settings</string>
+    <string name="done">Done</string>
+    <string name="select_region">Select region for ID</string>
+
+    <!-- SecretMenuActivity-->
+    <string name="settings_save">Save</string>
+    <string name="settings_saved">Saved successfully</string>
+    <string name="settings_error_message">Not saved, some settings are invalid</string>
+
+    <!-- Queue Selection -->
+    <string name="queue_selection">Queue selection</string>
+    <string name="queue_name">Queue Name</string>
+    <string name="queue_selection_subtitle">Default: default</string>
+    <string name="queue_name_default">default</string>
+
+    <string-array name="queue_selection_array">
+        <item>default</item>
+        <item>aristotle</item>
+        <item>buddha</item>
+        <item>confucius</item>
+        <item>diogenes</item>
+    </string-array>
+
+    <!-- End Flow Screen -->
+    <string name="select_end_flow">Which screen to show when done?</string>
+    <string name="end_flow_screen">End Flow Screen</string>
+    <string name="end_flow_subtitle">Default: conference</string>
+    <string name="conference">Conference</string>
+    <string name="results">Results screen</string>
+    <string name="both">Both</string>
+
+    <!-- ID Results Mode -->
+    <string name="id_result_mode_title">ID Results Mode</string>
+    <string name="id_result_mode_subtitle">Default: Accurate</string>
+
+    <!-- SDK Mode -->
+    <string name="sdk_mode_title">SDK Mode</string>
+    <string name="sdk_mode_subtitle">Default: Standard</string>
+
+    <string-array name="sdk_mode_array">
+        <item>Standard</item>
+        <item>Capture only</item>
+        <item>Advanced</item>
+    </string-array>
+
+    <!-- Skip Verify Address -->
+    <string name="skip_verify_address">Skip Verify Address</string>
+    <string name="skip_verify_address_default_off_subtitle">Default OFF</string>
+
+    <!-- Delete User by Phone -->
+    <string name="delete_by_phone">Delete User by Phone</string>
+    <string name="enter_phone_number">Enter Phone</string>
+    <string name="delete">Delete</string>
+    <string name="cant_delete_without_token">Before deleting users, please complete the Incode Welcome flow with a new user</string>
+    <string name="phone_number_empty">Please enter a valid phone number</string>
+    <string name="user_deleted_success">User deleted successfully</string>
+
+    <!-- Reset All to Defaults -->
+    <string name="reset_all_to_defaults">Reset all to defaults</string>
+
+    <!-- ActivityCaptureSDKExample -->
+    <string name="start_id_or_passport_capture">Start ID or Passport capture</string>
+    <string name="start_id_capture">Start ID capture</string>
+    <string name="start_passport_capture">Start Passport capture</string>
+    <string name="start_selfie_capture">Start selfie capture</string>
+    <string name="start_id_and_selfie_capture">Capture flow</string>
+    <string name="downloading_libraries">Please wait, downloading libraries… The buttons will become active when the download is complete.</string>
+
+</resources>
